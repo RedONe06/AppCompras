@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+         />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/layoutCheck"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        >
+    <CheckBox
+        android:id="@+id/checkArroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkArroz"
+        />
+    <CheckBox
+        android:id="@+id/checkLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkLeite"
+        android:layout_below="@id/checkArroz"
+        />
+    <CheckBox
+        android:id="@+id/checkCarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkCarne"
+        android:layout_below="@id/checkLeite"
+        />
+    <CheckBox
+        android:id="@+id/checkFeijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkFeijao"
+        android:layout_below="@id/checkCarne"
+        />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnTotal"
+        android:layout_below="@id/layoutCheck"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppCompras</string>
+    <string name="txtTitulo">Escolha o seu produto:</string>
+    <string name="checkArroz">Arroz (R$ 2,69)</string>
+    <string name="checkLeite">Leite (R$ 5,00)</string>
+    <string name="checkCarne">Carne (R$ 9,70)</string>
+    <string name="btnTotal">Total das compras</string>
+    <string name="checkFeijao">Feijão (R$ 2,70)</string>
+</resources>
